@@ -4,7 +4,6 @@ function load_visible_img() {
                 $(this).offset().top < $(window).scrollTop() + $(window).height() + $(this).height()) {
             $(this).attr('src', $(this).data('src'));
             $(this).removeClass('dynamic-load');
-            console.log('asd');
         }
     });
 }
